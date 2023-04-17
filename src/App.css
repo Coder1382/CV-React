@@ -1,0 +1,187 @@
+*{
+  margin: 0;
+  box-sizing: border-box;
+  font-size: 3vh;
+  color: #333;
+}
+caption{
+  font-variant: small-caps;
+  padding-bottom: 1vh;
+  text-align: center;
+}
+html, body{
+  width: 100vw;
+  height: 100vh;
+  overflow: hidden;
+  background-color: silver;
+}
+.App{
+  width: 100vw;
+  height: 100vh;
+}
+.cover{
+  padding: 0 2vw 1vh 2vw;
+  width: 70%;
+  margin: 0 auto;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  background-color: white;
+  box-shadow: 0 0 5vw rgb(187, 201, 214);
+}
+table{
+  width: 100%;
+}
+.swap, .work{
+  width: 100%;
+}
+.photo{
+  width: 18vw;
+}
+td{
+  text-align: left;
+  padding: 0;
+}
+.summ td:nth-child(2){
+  padding-right: 7vw;
+  text-align: center;
+}
+.summ td:first-child{
+  text-align: left;
+}
+.summ tr:nth-child(7) td, .summ tr:last-child td{
+  text-align: center;
+  padding-left: 8vw;
+}
+.over, .over td{
+  border: none;
+}
+.ex td, .ex{
+  border: none;
+}
+a{
+  margin: 1vw;
+}
+a:hover{
+  color: slateblue;
+}
+td{
+  text-align: center;
+  padding: 0 .5vw;
+}
+td, table{
+  border: .1vh solid #777;
+  border-collapse: collapse;
+}
+.company{
+  display: inline-block;
+  width: 1vw;
+  min-height: 1vh;
+  border-top: .1vh solid limegreen;
+}
+.foto{
+  width: 100%;
+  height: auto;
+  border: 0.1 solid silver;
+}
+.left{
+position: absolute;
+top: 47%;
+left: 5%;
+min-width: 6vh;
+min-height: 6vh;
+border-top: 0.5vw solid lightgrey;
+border-left: 0.5vw solid lightgrey;
+border-radius: 0.2vw;
+transform: rotateZ(-45deg);
+border-right: none;
+border-bottom: none;
+background-color: silver;
+}
+.right{
+position: absolute;
+top: 47%;
+right: 5%;
+min-width: 6vh;
+min-height: 6vh;
+border-right: 0.5vw solid #555;
+border-top: 0.5vw solid #555;
+border-radius: 0.2vw;
+transform: rotateZ(45deg);
+border-left: none;
+border-bottom: none;
+background-color: silver;
+}
+.lef{
+  position: absolute;
+  top: 58%;
+  left: 15.3%;
+  min-width: 4vh;
+  min-height: 4vh;
+  border-left: 0.5vw solid #555;
+  border-top: 0.5vw solid #555;
+  border-radius: 0.2vw;
+  transform: rotateZ(-45deg);
+  border-right: none;
+  border-bottom: none;
+  background-color: white;
+  }
+  .rig{
+  position: absolute;
+  top: 58%;
+  right: 15.3%;
+  min-width: 4vh;
+  min-height: 4vh;
+  border-top: 0.5vw solid lightgrey;
+  border-right: 0.5vw solid lightgrey;
+  border-radius: 0.2vw;
+  transform: rotateZ(45deg);
+  border-left: none;
+  border-bottom: none;
+  background-color: white;
+  }
+  .desc{
+    text-align: left;
+  }
+  .le{
+    position: absolute;
+    top: 58%;
+    left: 15.3%;
+    min-width: 4vh;
+    min-height: 4vh;
+    border-top: 0.5vw solid lightgrey;
+    border-left: 0.5vw solid lightgrey;
+    border-radius: 0.2vw;
+    transform: rotateZ(-45deg);
+    border-right: none;
+    border-bottom: none;
+    background-color: white;
+    }
+    .ri{
+    position: absolute;
+    top: 58%;
+    right: 15.3%;
+    min-width: 4vh;
+    min-height: 4vh;
+    border-right: 0.5vw solid #555;
+    border-top: 0.5vw solid #555;
+    border-radius: 0.2vw;
+    transform: rotateZ(45deg);
+    border-left: none;
+    border-bottom: none;
+    background-color: white;
+    }
+    .slider{
+      width: 100%;
+      height: auto;
+      display: flex;
+      justify-content: space-around;
+      align-items: center;
+    }
+    .slide{
+      width: auto;
+      height: 15vh;
+      border-radius: .5vw;
+    }
